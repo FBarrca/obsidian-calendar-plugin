@@ -1,4 +1,29 @@
-# obsidian-calendar-plugin
+# Improved Obsidian Calendar plugin
+
+This plugin is a fork of the abandoned [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) plugin, with highly-requested improvements:
+- Added quarters to the calendar leaf
+- The month, year, and quarters can now be clicked to navigate to the corresponding monthly/quarterly/yearly note, fully integrated with the [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) plugin
+- New options, such as the ability to change which side the week numbers get displayed, and the ability to hide quarters
+
+<img width="294" height="386" alt="2025-12-31_tIZYFaONKG" src="https://github.com/user-attachments/assets/020ef1ab-a08b-4b9e-9f03-5bfd56885634" />
+
+# Installation
+
+This plugin is not available through the community plugin browser, you'll need to install it manually by following these steps:
+
+You can install it either by using [BRAT](https://obsidian.md/plugins?id=obsidian42-brat) or manually by following the instructions below:
+    
+  1. Download these 3 files by clicking on these links: [main.js](https://github.com/FBarrca/obsidian-calendar-plugin/releases/download/1.5.13/main.js) - [manifest.json](https://github.com/FBarrca/obsidian-calendar-plugin/releases/download/1.5.13/manifest.json) - [styles.css](https://github.com/FBarrca/obsidian-calendar-plugin/releases/download/1.5.13/styles.css), or by navigating to the [Releases](https://github.com/FBarrca/obsidian-calendar-plugin/releases/tag/1.5.13) page and downloading them from there.
+  2. In your File Explorer, navigate to your vault's plugin folder, located at `<your_vault>/.obsidian/plugins/`, then create a new folder and name it `Calendar`.
+  Note: On some operating systems, the .obsidian folder might be hidden. Make sure to show hidden files in your file explorer.
+  3. Copy all 3 files (main.js, manifest.json, styles.css) into that Calendar folder you just created.
+  4. Restart Obsidian.
+  5. Go to Settings -> Community plugins.
+  6. Make sure Safe mode is off.
+  7. Find "Calendar" in the list and enable it.
+
+For context, you can read the original Calendar plugin's description below, though it might not be fully up to date:
+---
 
 This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view for visualizing and navigating between your daily notes.
 
